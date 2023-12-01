@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azeno-Product</title>
+    <link  rel="icon" href="../img/img1-1.jpg.webp">
+    <!--bootstrap 5.3-->
+    <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css">
+    <!--font awesome 6.4.2-->
+    <link rel="stylesheet" href="../../vendor/fontawesome/all.min.css">
+
+    <!-- css style -->
+    <link rel="stylesheet" href="../../assets/css/media.min.css">
+    <!--media css-->
+    <link rel="stylesheet" href="../../assets/css/style.min.css">
+</head>
+<body>
+    
+    <div class="loading bg-white position-fixed vh-100 w-100 d-flex justify-content-around align-items-center z-3">
+        <span class="loader"></span>
+    </div>
+    <div class="scroll-to-top opacity-0 invisible  bg-danger text-white position-fixed rounded-circle z-2">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <span class="loader"></span>
+    <!--start returns section-->
+    <nav class="navbar navbar-expand-lg py-1 return ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="returns-period">
+                    <i class="fa-sharp fa-solid fa-rotate-left fa-flip-vertical text-white d-inline py-0"></i>
+                    <p class="text-white py-0 d-inline">We’ve extended our returns period to 60 days.</p>
+                </div>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item d-flex email">
+                        <i class="fa-sharp fa-regular fa-envelope d-inline text-white"></i>
+                        <a class=" nav-link active text-white  mt-2 py-0 home" aria-current="page"
+                            href="#">sayhello@azeno.com</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="px-2 nav-link dropdown-toggle text-white" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            LANGUAGE
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">France</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item " href="#">Arabic</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="px-2 nav-link dropdown-toggle text-white" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            CURRENCY
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">EUR</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">GBP</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end returns section-->
+    <!--start navbar section-->
+    
+    <nav class="navbar  bran-nav border-bottom navbar-expand-lg bg-white py-3">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand me-5" href="../../index.html"><img src="../img/Logo-dark-1.png.webp" class="w-100"
+                    alt="logo"></a>
+            <div class="shopping-icon-min  d-none">
+                <a href="#" class=" me-2"> <i class="fa-solid fa-bag-shopping"></i> </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between">
+                    <li class="nav-item dropdown px-2">
+                        <a href="../../index.html"
+                            class="navbar-links  text-decoration-none d-inline-block">HOME</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text active "> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a href="shop.html" class="navbar-links text-decoration-none d-inline-block">SHOP</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text"> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="#">Action</a></li>
+                            <li><a class="dropdown-item " href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a href="product.html" class="navbar-links active text-decoration-none d-inline-block">PRODUCT</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text"> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a href="blog.html" class="navbar-links text-decoration-none d-inline-block">BLOG</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text"> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a href="page.html" class="navbar-links text-decoration-none d-inline-block">PAGE</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text"> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Faq</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="social-media-icons mt-3 d-flex justify-content-end align-items-center mb-3">
+                    <div class="icon d-flex justify-content-center align-items-center px-3">
+                        <a href=""> <i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="icon  d-flex justify-content-center align-items-center px-3">
+                        <a href="" class="icon-list"> <i class="fa-regular fa-user"></i></a>
+                    </div>
+                    <div class="icon  d-flex justify-content-center align-items-center px-3">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                    </div>
+                    <div class="shopping-icon icon  d-flex justify-content-center align-items-center px-3">
+                        <a href=""> <i class="fa-solid fa-bag-shopping"></i> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!--end navbar section-->
+    <!--bottom nav-bar-->
+    <section class="bottom-nav d-none d-flex">
+        <div class="container">
+            <div class="bottom-nav-content d-flex justify-content-between align-items-center">
+                <div class="bottom-nav-item">
+                    <a href="#"><i class="fa-solid fa-shop"></i></a>
+                </div>
+                <div class="bottom-nav-item">
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                </div>
+                <div class="bottom-nav-item">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="bottom-nav-item">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end bottom navbar-->
+    <!--start header section-->
+    <header class="product-header pb-5 my-5">
+        <div class="container">
+            <div class="row ">
+                <div class="image-product-part1 col-md-12 col-lg-7 col-12 ">
+                    <div class="main-image-product to-top">
+                        <a href="#"> <img src="../img/product/Water-Repellent-Jacket-1.jpg.webp" id="mainImage"
+                                class="img-fluid" alt=""></a>
+                    </div>
+                    <div class="product-image-details d-flex justify-content-center">
+                        <div class="item">
+                            <img src="../img/product/Water-Repellent-Jacket-1.jpg (1).webp" onclick="changeImage()"
+                                class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="../img/product/Water-Repellent-Jacket-2.jpg.webp" onclick="changeImage2()"
+                                class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="../img/product/Water-Repellent-Jacket-3.jpg.webp" onclick="changeImage3()"
+                                class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="../img/product/Water-Repellent-Jacket-4.jpg.webp" onclick="changeImage4()"
+                                class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info col-lg-5 col-m12 col-12">
+                    <div class="product-content">
+                        <div class="product-location text-start">
+                            <div class="site-info d-flex">
+                                <a href="#" class="text-decoration-none"> Home </a>
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a href="#" class="text-decoration-none">Shop</a>
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a href="#" class="text-decoration-none">Kids</a>
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <span>Water Repellent Jacket</span>
+                            </div>
+                        </div>
+                        <div class="star-rating mt-2">
+                            <i class="fa-solid fa-star text-main-color"></i><i
+                                class="fa-solid fa-star text-main-color"></i><i
+                                class="fa-solid fa-star text-main-color"></i><i
+                                class="fa-solid fa-star text-main-color"></i><i class="fa-solid fa-star "></i>
+                            <a href="#" class="text-decoration-none"> (2 customer reviews) </a>
+                        </div>
+                        <div class="product-title ">
+                            <h2 class="text-uppercase">water repellent jacket</h2>
+                        </div>
+                        <div class="prices">
+                            <span class="back-price">$67.00</span> <span class="price">$60.00</span>
+                            <div class="product-lable d-inline-block">
+                                <span>-10%</span>
+                            </div>
+                        </div>
+                        <div class="product-description">
+                            <p>Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.
+                                Aenean aliquam varius ipsum, non ultricies tellus sodales eu. Donec dignissim viverra
+                                nunc, ut aliquet magna posuere eget.
+                            </p>
+                        </div>
+                        <div class="count-down d-flex algin-tems-center">
+                            <i class="fa-regular fa-clock"></i>
+                            <h3 class="text-uppercase">
+                                hurry up !deal ends in:
+                            </h3>
+
+                        </div>
+                        <div class="count-timer d-flex">
+                            <div class="counter">
+                                <span class="d-inline-block">23</span>
+                                <p class="text-center">DAYS</p>
+                            </div>
+                            <div class="counter">
+                                <span class="d-inline-block">12</span>
+                                <p class="text-center">HOURS</p>
+                            </div>
+                            <div class="counter">
+                                <span class="d-inline-block">35</span>
+                                <p class="text-center">MINS</p>
+                            </div>
+                            <div class="counter">
+                                <span class="d-inline-block">8</span>
+                                <p class="text-center">SECS</p>
+                            </div>
+                        </div>
+                       
+                        <div class="add-cart  d-flex pe-2 align-items-center mt-5">
+                            <div class="quantity mt-0 me-2">
+                                <span>1</span>
+                                <div class="btn-plus w-100">
+                                    <button type="button" class="plus"> + </button>
+                                </div>
+                                <div class="btn-minus">
+                                    <button type="button" class="minus "> - </button>
+                                </div>
+                            </div>
+
+                            <div class="add-btn ">
+                                <input type="submit" value="add to cart" class="w-100" name="" id="">
+                            </div>
+                        </div>
+                        <div class="add-wishlist d-flex mt-4">
+
+                            <a href="#" class="d-flex align-content-center align-items-center text-decoration-none">
+                                <span class="text-uppercase ">Add to wishlist</span>
+                            </a>
+
+                        </div>
+                        <div class="product_meta">
+                            <div class="category">
+                                <span> Category: <a href="#" class="text-decoration-none">Kids</a> </span>
+                            </div>
+                            <div class="social-media-icons mt-3 d-flex">
+                                <span class="d-inline-block me-2"> share: </span>
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                                <div class="icon  d-flex justify-content-center align-items-center">
+                                    <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="icon  d-flex justify-content-center align-items-center">
+                                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--end header section-->
+    <!-- start review section -->
+    <section class="review border-top py-3">
+        <div class="title text-center w-100 text-center m-auto">
+            <span class="text-uppercase">Reviews[2]</span>
+        </div>
+        <div class="container mt-5">
+            <div class="reviews-count">
+                <p class="text-uppercase">2 reviews for <span>water repllent jacket</span> </p>
+            </div>
+            <div class="reviews pb-3">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="review-item">
+                            <div class="star-rating text-end">
+                                <i class="fa-solid fa-star text-main-color"></i><i
+                                    class="fa-solid fa-star text-main-color"></i><i
+                                    class="fa-solid fa-star text-main-color"></i><i
+                                    class="fa-solid fa-star text-main-color"></i><i class="fa-solid fa-star "></i>
+
+                            </div>
+                            <div class="client-review">
+                                <div class="client-info d-flex align-items-center">
+                                    <div class="client-image">
+                                        <img src="../img/product/53444f91e698c0c7caa2dbc3bdbf93fc.png" alt="client">
+                                    </div>
+                                    <div class="client-data ps-3">
+                                        <div>
+                                            <p class="text-uppercase p-0">wpbingo</p>
+                                        </div>
+                                        <div>
+                                            <span>18.Sep.2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est
+                                    tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis
+                                    justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id
+                                    nulla.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="review-item">
+                            <div class="star-rating text-end">
+                                <i class="fa-solid fa-star text-main-color"></i><i
+                                    class="fa-solid fa-star text-main-color"></i><i
+                                    class="fa-solid fa-star text-main-color"></i><i
+                                    class="fa-solid fa-star text-main-color"></i><i class="fa-solid fa-star "></i>
+                            </div>
+                            <div class="client-review">
+                                <div class="client-info d-flex align-items-center">
+                                    <div class="client-image">
+                                        <img src="../img/product/53444f91e698c0c7caa2dbc3bdbf93fc.png" alt="client">
+                                    </div>
+                                    <div class="client-data ps-3">
+                                        <div>
+                                            <p class="text-uppercase p-0">wpbingo</p>
+                                        </div>
+                                        <div>
+                                            <span>18.Sep.2018</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est
+                                    tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis
+                                    justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id
+                                    nulla.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="addReview mt-5">
+                    <div class="addReviewContent">
+                        <i class="fa-solid fa-feather"></i>
+                        <span>
+                            ADD A REVIEW
+                        </span>
+
+                    </div>
+
+                    <p>Your email address will not be published. Required fields are marked <span
+                            class="text-danger">*</span>
+                    </p>
+                    <div class="rating">
+
+                        <div class="star-rating ">
+                            <span class="text-uppercase me-3">
+                                Your rating
+                            </span>
+                            <i class="fa-solid fa-star text-main-color"></i><i
+                                class="fa-solid fa-star text-main-color"></i><i
+                                class="fa-solid fa-star text-main-color"></i><i
+                                class="fa-solid fa-star text-main-color"></i><i class="fa-solid fa-star "></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="reviewTextArea">
+                            <form>
+                                <textarea name="" class="w-100" placeholder="Your Reviews *" id="" cols="45"
+                                    rows="9"></textarea>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-review">
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="w-100 " placeholder="Name *">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="w-100" placeholder="Email *">
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100  d-inline-block">Submit</button>
+                            </form>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end review section-->
+    <!--start Related Products-->
+    <!--
+<section class="RelatedProducts pt-5 border-top">
+        <div class="title-section position-relative">
+            <h2 class="text-uppercase ">
+                Related Products
+            </h2>
+        </div>
+        </section>
+  -->
+
+
+    <!--end Related Products-->
+    <!--start footer section-->
+    <footer class="footer py-5 overflow-hidden">
+        <div class="footer-sections w-75 m-auto">
+            <div class="row">
+                <div class="footer-item col-md-3">
+                    <div class="footer-title">
+                        <h3 class="text-uppercase "> get help </h3>
+                    </div>
+                    <ul class="p-0 m-0">
+                        <li><a href="#" class="text-decoration-none">Contact & FAQ</a></li>
+                        <li><a href="#" class="text-decoration-none">Track Your Order</a></li>
+                        <li><a href="#" class="text-decoration-none">Shipping & delivery</a></li>
+                        <li><a href="#" class="text-decoration-none">Visit Brisbane Studio</a></li>
+                        <li><a href="#" class="text-decoration-none">Interest Free Finance</a></li>
+                        <li><a href="#" class="text-decoration-none">Cipmoney</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item w-25">
+                    <div class="footer-title">
+                        <h3 class="text-uppercase "> services </h3>
+                    </div>
+                    <ul class="p-0 m-0">
+                        <li><a href="#" class="text-decoration-none">Assembly Guides</a></li>
+                        <li><a href="#" class="text-decoration-none">Furniture Packages & Fitouts</a></li>
+                        <li><a href="#" class="text-decoration-none">Trade Programme</a></li>
+                        <li><a href="#" class="text-decoration-none">Sale</a></li>
+                        <li><a href="#" class="text-decoration-none">New Designs</a></li>
+                        <li><a href="#" class="text-decoration-none">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item col-md-3 ">
+                    <div class="footer-title">
+                        <h3 class="text-uppercase "> connect </h3>
+                    </div>
+                    <ul class="p-0 m-0">
+                        <li><a href="#" class="text-decoration-none">Twiter</a></li>
+                        <li><a href="#" class="text-decoration-none">Facebook</a></li>
+                        <li><a href="#" class="text-decoration-none">Instagram</a></li>
+                        <li><a href="#" class="text-decoration-none">Pinterest</a></li>
+                        <li><a href="#" class="text-decoration-none">Jobs</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item subscribe col-md-3 ">
+                    <div class="footer-title">
+                        <h3 class="text-uppercase ">SUBSCRIBE FOR NEWSLETTER</h3>
+                    </div>
+                    <p class="m-0 p-0">Sign up for our newsletter and stay up-to-date with the latest collection, the
+                        latest
+                        trends and the
+                        best deals!</p>
+                    <div class="subscribe-section">
+                        <div class="mt-4 d-flex position-relative">
+                            <input type="email" class="form-control border-0 rounded-0 p-0"
+                                id="exampleFormControlInput1" placeholder="Your email address...">
+                            <div class="send">
+                                <a href="#"> <i class="fa-solid fa-paper-plane"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="social-footer overflow-hidden">
+        <div class="social-content w-75  m-auto">
+            <div class="row">
+                <div class="col-md-3 azeno-link d-flex align-items-center mt-2">
+                    <span>© 2020 AZENOSPRORTSTORE.COM</span>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <a href="#" class="text-decoration-none ">Privacy</a>
+                    <a href="#" class="text-decoration-none ">Terms</a>
+                    <a href="#" class="text-decoration-none border-0">*Promo T&Cs Apply(view here)</a>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="social-media-icons d-flex">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <a href="#"> <i class="fa-brands fa-twitter text-white"></i></a>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-content-center align-items-center">
+                            <a href="#"> <i class="fa-brands fa-instagram text-white"></i></a>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <a href="#"><i class="fa-brands fa-youtube text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end footer section-->
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.min.js"></script>
+</body>
+
+
+</html>

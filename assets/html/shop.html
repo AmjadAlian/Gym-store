@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azeno-Shop</title>
+    <link  rel="icon" href="../img/img1-1.jpg.webp">
+    <!--bootstrap 5.3-->
+    <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css">
+    <!--font awesome 6.4.2-->
+    <link rel="stylesheet" href="../../vendor/fontawesome/all.min.css">
+
+    <!-- css style -->
+    <link rel="stylesheet" href="../../assets/css/media.min.css">
+    <!--media css-->
+    <link rel="stylesheet" href="../../assets/css/style.min.css">
+</head>
+
+<body>
+    <div class="loading bg-white position-fixed vh-100 w-100 d-flex justify-content-around align-items-center z-3"> 
+        <span class="loader"></span>
+    </div>
+<div-- class="scroll-to-top opacity-0 invisible  bg-danger text-white position-fixed rounded-circle z-2">
+    <i class="fa-solid fa-chevron-up"></i>
+</div-->
+    <!--start returns section-->
+    <nav class="navbar navbar-expand-lg py-1 return ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="returns-period">
+                    <i class="fa-sharp fa-solid fa-rotate-left fa-flip-vertical text-white d-inline py-0"></i>
+                    <p class="text-white py-0 d-inline">We’ve extended our returns period to 60 days.</p>
+                </div>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item d-flex email">
+                        <i class="fa-sharp fa-regular fa-envelope d-inline text-white"></i>
+                        <a class=" nav-link active text-white  mt-2 py-0 home" aria-current="page"
+                            href="#">sayhello@azeno.com</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="px-2 nav-link dropdown-toggle text-white" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            LANGUAGE
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">France</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item " href="#">Arabic</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="px-2 nav-link dropdown-toggle text-white" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            CURRENCY
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">EUR</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">GBP</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end returns section-->
+    <!--start navbar section-->
+    <nav class="navbar  bran-nav border-bottom navbar-expand-lg bg-white py-3">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand me-5" href="../../index.html"><img src="../img/Logo-dark-1.png.webp" class="w-100" alt="logo"></a>
+            <div class="shopping-icon-min  d-none">
+                <a href="#" class=" me-2"> <i class="fa-solid fa-bag-shopping"></i> </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between">
+                    <li class="nav-item dropdown px-2">
+                        <a href="../../index.html"
+                            class="navbar-links  text-decoration-none d-inline-block">HOME</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text active "> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a href="shop.html" class="navbar-links active text-decoration-none d-inline-block">SHOP</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text"> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="#">Action</a></li>
+                            <li><a class="dropdown-item " href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a href="product.html" class="navbar-links text-decoration-none d-inline-block">PRODUCT</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text"> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a href="blog.html" class="navbar-links text-decoration-none d-inline-block">BLOG</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text"> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-2">
+                        <a href="page.html" class="navbar-links text-decoration-none d-inline-block">PAGE</a>
+                        <a class="nav-link d-inline-block dropdown-toggle " href="https//:facebook.com" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="menu-text"> <i class="fa-solid fa-chevron-down "></i> </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="aboutUs.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Faq</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="social-media-icons mt-3 d-flex justify-content-end align-items-center mb-3">
+                    <div class="icon d-flex justify-content-center align-items-center px-3">
+                        <a href=""> <i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="icon  d-flex justify-content-center align-items-center px-3">
+                        <a href="" class="icon-list"> <i class="fa-regular fa-user"></i></a>
+                    </div>
+                    <div class="icon  d-flex justify-content-center align-items-center px-3">
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                    </div>
+                    <div class="shopping-icon icon  d-flex justify-content-center align-items-center px-3">
+                        <a href=""> <i class="fa-solid fa-bag-shopping"></i> </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!--end navbar section-->
+    <!--bottom nav-bar-->
+    <section class="bottom-nav d-none d-flex">
+        <div class="container">
+            <div class="bottom-nav-content d-flex justify-content-between align-items-center">
+                <div class="bottom-nav-item">
+                    <a href="#"><i class="fa-solid fa-shop"></i></a>
+                </div>
+                <div class="bottom-nav-item">
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                </div>
+                <div class="bottom-nav-item">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="bottom-nav-item">
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end bottom navbar-->
+    <!--start header-->
+    <header class="shop-header py-5">
+        <div class=" m-auto text-center border-bottom pb-5">
+            <div class="title-content to-top">
+                <h1 class="text-uppercase"> shop </h1>
+            </div>
+            <div class="site-info d-flex justify-content-center">
+                <p> Home </p>
+                <i class="fa-solid fa-chevron-right"></i>
+                <p>Shop</p>
+            </div>
+            <div class="shop-categories m-auto mt-4 pb-4">
+                <div class="shop-categorie d-inline-block">
+                    <a href="#" class="image-categories"> <img src="../img/shop-categories/5.jpg.webp" class="img-fluid"
+                            alt="fitness categories"> </a>
+                    <div class="title-categories">
+                        <a href="#" class="text-decoration-none title-categories mt-2">FITNESS</a>
+                    </div>
+                </div>
+                <div class="shop-categorie d-inline-block">
+                    <a href="#" class="image-categories"> <img src="../img/shop-categories/4.jpg.webp" class="img-fluid"
+                            alt="footwear categories"> </a>
+                    <div class="title-categories">
+                        <a href="#" class="text-decoration-none title-categories mt-2">FOOTWEAR</a>
+                    </div>
+                </div>
+                <div class="shop-categorie d-inline-block">
+                    <a href="#" class="image-categories"> <img src="../img/shop-categories/3.jpg.webp" class="img-fluid"
+                            alt="kids categories"> </a>
+                    <div class="title-categories">
+                        <a href="#" class="text-decoration-none title-categories mt-2">KIDS</a>
+                    </div>
+                </div>
+                <div class="shop-categorie d-inline-block">
+                    <a href="#" class="image-categories"> <img src="../img/shop-categories/2.jpg.webp" class="img-fluid"
+                            alt="mens categories"> </a>
+                    <div class="title-categories">
+                        <a href="#" class="text-decoration-none title-categories mt-2">MENS</a>
+                    </div>
+                </div>
+                <div class="shop-categorie d-inline-block">
+                    <a href="#" class="image-categories"> <img src="../img/shop-categories/6.jpg.webp" class="img-fluid"
+                            alt="tech categories"> </a>
+                    <div class="title-categories">
+                        <a href="#" class="text-decoration-none title-categories mt-2">TECH</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--end header-->
+    <!--start shop categories section-->
+    <section class="categories-data py-5 px-1 overflow-hidden">
+        <div class="container p-0">
+            <div class="row">
+                <div class="left-content col-xl-3 col-lg-3 col-md-12 col-12">
+                    <div class="item-list">
+                        <h3 class="border-bottom">CATEGORIES</h3>
+                        <ul class="p-0 mt-4">
+                            <a href="#" class="text-decoration-none">
+                                <li>
+                                    <div class="items d-flex justify-content-between">
+                                        <p>Fitness</p>
+                                        <span>6</span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li>
+                                    <div class="items d-flex justify-content-between">
+                                        <p>Footwear</p>
+                                        <span>5</span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li>
+                                    <div class="items d-flex justify-content-between">
+                                        <p>Kids</p>
+                                        <span>2</span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li>
+                                    <div class="items d-flex justify-content-between">
+                                        <p>Mens</p>
+                                        <span>7</span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li>
+                                    <div class="items d-flex justify-content-between">
+                                        <p>Tech</p>
+                                        <span>3</span>
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li>
+                                    <div class="items d-flex justify-content-between">
+                                        <p>Womens</p>
+                                        <span>5</span>
+                                    </div>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="item-list mt-5">
+                        <h3 class="border-bottom">PRICE</h3>
+                        <div class="price mt-4">
+                            <div class="range-control-left"></div>
+                            <div class="price-range"></div>
+                            <div class="range-control-right"></div>
+                            <div class="price-input pt-4">
+                                <p class="">Range : <span>$18 - $350</span> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list mt-5">
+                        <h3 class="border-bottom">COLOR</h3>
+                        <div class="colors mt-4">
+                            <a href="#" class=" d-inline-block"><span
+                                    class="color-system blue d-inline-block"></span></a>
+                            <a href="#" class=" d-inline-block"><span
+                                    class="color-system orange d-inline-block"></span></a>
+                            <a href="#" class=" d-inline-block"><span
+                                    class="color-system green d-inline-block"></span></a>
+                            <a href="#" class=" d-inline-block"><span
+                                    class="color-system rsidential d-inline-block"></span></a>
+                            <a href="#" class=" d-inline-block"><span
+                                    class="color-system yellow d-inline-block"></span></a>
+                            <a href="" class=" d-inline-block"><span
+                                    class="color-system pink d-inline-block"></span></a>
+                            <a href="" class=" d-inline-block"><span class="color-system red d-inline-block"></span></a>
+                            <a href="" class=" d-inline-block"><span
+                                    class="color-system green-yellow d-inline-block"></span></a>
+                        </div>
+                    </div>
+                    <div class="item-list mt-5">
+                        <h3 class="border-bottom">SIZE</h3>
+                        <div class="shop-sizes mt-4">
+                            <span class=" mb-2 d-inline-block"> <a href="#"
+                                    class="d-inline-block text-decoration-none "> L </a></span>
+                            <span class=" mb-2 d-inline-block"> <a href="#"
+                                    class="d-inline-block text-decoration-none">M</a></span>
+                            <span class=" mb-2 d-inline-block"> <a href="#"
+                                    class="d-inline-block text-decoration-none">S</a></span>
+                            <span class="d-inline-block"> <a href="#"
+                                    class="d-inline-block text-decoration-none">XL</a></span>
+                            <span class="d-inline-block"> <a href="#"
+                                    class="d-inline-block text-decoration-none">XS</a></span>
+
+                        </div>
+                    </div>
+                    <div class="item-list mt-5">
+                        <h3 class="border-bottom">BRANDS</h3>
+                        <div class="brands-shop mt-4">
+                            <div class="row ">
+                                <div class="col-md-4 mb-2"> <a href="#"><img src="../img/brand/10.png.webp"
+                                            class="img-fluid border" alt="brand"></a></div>
+                                <div class="col-md-4 mb-2"> <a href="#"><img src="../img/brand//49.png.webp"
+                                            class="img-fluid border" alt="brand"></a></div>
+                                <div class="col-md-4 mb-2"> <a href="#"><img src="../img/brand//35.png.webp"
+                                            class="img-fluid border" alt="brand"></a></div>
+                                <div class="col-md-4 "> <a href="#"><img src="../img/brand/12.png.webp"
+                                            class="img-fluid border" alt="brand"></a></div>
+                                <div class="col-md-4"> <a href="#"><img src="../img/brand/48.png.webp"
+                                            class="img-fluid border" alt="brand"></a></div>
+                                <div class="col-md-4"> <a href="#"><img src="../img/brand/10.png.webp"
+                                            class="img-fluid border" alt="brand"></a></div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item-list mt-5">
+                        <h3 class="border-bottom">FEATURE PRODUCT</h3>
+                        <div class="product-shop mt-4">
+                            <div class="product-item mb-4 d-flex">
+                                <div class="product-details  d-inline-block">
+                                    <a href=""> <img src="../img/on-sale/Womens-Jacket-Down-Fill-1.webp"
+                                            class="d-inline-block img-fluid " alt="women jacket"></a>
+                                </div>
+                                <div class="product-details-bot d-inline-block">
+                                    <div class="star-rating d-flex align-items-center justify-content-start mb-2 mt-1">
+                                        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                            class="fa-regular fa-star"></i>
+                                    </div>
+                                    <a class="m-0 text-decoration-none" href="#">WOMEN'S JACKET DOWN FILL</a>
+                                    <div class="prices">
+                                        <span class="back-price">$350.00</span> <span class="new-price">$300</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item mb-4 d-flex">
+                                <div class="product-details  d-inline-block">
+                                    <a href="#"><img src="../img/on-sale/Medium-Support-Bra-1.jpg.webp"
+                                            class="d-inline-block img-fluid " alt="fitness women"></a>
+                                </div>
+                                <div class="product-details-bot d-inline-block">
+                                    <div class="star-rating d-flex align-items-center justify-content-start mb-2 mt-1">
+                                        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                            class="fa-regular fa-star"></i>
+                                    </div>
+                                    <a class="m-0 text-decoration-none" href="#"> MEDIUM SUPPORT BRA</a>
+                                    <div class="prices">
+                                        <span class="back-price">$350.00</span> <span class="new-price">$300</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item border-0 mb-4 d-flex">
+                                <div class="product-details  d-inline-block">
+                                    <a href=""><img src="../img//trendign/Wireless-Bluetooth-Speaker-2.jpg.webp"
+                                            class="d-inline-block img-fluid " alt="speaker bluetooth"></a>
+                                </div>
+                                <div class="product-details-bot d-inline-block">
+                                    <div class="star-rating d-flex align-items-center justify-content-start mb-2 mt-1">
+                                        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                            class="fa-regular fa-star"></i>
+                                    </div>
+                                    <a class="m-0 text-decoration-none" href="#">WIRELESS BLUETOOTH SPEAKER</a>
+                                    <div class="prices">
+                                        <span class="back-price">$350.00</span> <span class="new-price">$300</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-content col-xl-9 col-lg-9 col-md-12 col-12 ps-4">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6 mb-4">
+                            <div class="items position-relative">
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart "></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/on-sale/Womens-Running-Jacket-1.jpg.webp"
+                                            class="img-fluid" alt="women hoodie"></a>
+                                </div>
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">FITNESS</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">EXO ULTRA SPORTS BRA</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="price">$350.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6 mb-4">
+                            <div class="items position-relative">
+                                <div class="off-sale"><span>-10%</span></div>
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart "></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/on-sale/Medium-Support-Bra-1.jpg.webp"
+                                            class="img-fluid" alt="women "></a>
+                                </div>
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">WOMENS</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">MEDIUM SUPPORT BRA</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="back-price">$200.00</span> <span class="new-price">$180.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6 mb-4">
+                            <div class="items position-relative">
+
+                                <div class="off-sale"><span>-10%</span></div>
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart "></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/on-sale/Womens-Running-Jacket-1.jpg.webp"
+                                            class="img-fluid" alt="womens hoodie"></a>
+                                </div>
+
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">WOMENS</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">WOMEN’S RUNNING JACKET</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="back-price">$100.00</span> <span class="new-price">$90.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6 mb-4">
+                            <div class="items position-relative">
+
+                                <div class="off-sale"><span>-10%</span></div>
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart "></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/trendign/Wireless-Bluetooth-Speaker-2.jpg.webp"
+                                            class="img-fluid" alt="womens hoodie"></a>
+                                </div>
+
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">TECH</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">WIRELESS BLUETOOTH SPEAKER</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="back-price">$100.00</span> <span class="new-price">$90.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6 mb-4">
+                            <div class="items position-relative">
+
+                                <div class="off-sale"><span>-14%</span></div>
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/trendign/Rise-sports-bra-1.jpg.webp" class="img-fluid"
+                                            alt="womens hoodie"></a>
+                                </div>
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">FITNESS</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">RISE SPORTS BRA</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="back-price">$350.00</span> <span class="new-price">$300.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6 mb-4">
+                            <div class="items position-relative">
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart "></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/trendign/Air-Force-1-Crater-1.jpg.webp"
+                                            class="img-fluid" alt="womens hoodie"></a>
+                                </div>
+
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">FOOTWEAR</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">AIR FORCE 1 CRATER</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="price">$350.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6 mb-4">
+                            <div class="items position-relative">
+
+                                <div class="off-sale"><span>-14%</span></div>
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart  "></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/on-sale/Womens-Full-Zip-Hoodie-1.jpg.webp"
+                                            class="img-fluid" alt="womens hoodie"></a>
+                                </div>
+
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">WOMENS</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">EXO ULTRA SPORTS BRA</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="back-price">$400.00</span> <span class="new-price">$350.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6 mb-4">
+                            <div class="items position-relative">
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart "></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/trendign/BackBeat-FIT-3200.jpg.webp" class="img-fluid"
+                                            alt="womens hoodie"></a>
+                                </div>
+
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">TECH</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">BACKBEAT FIT 3200</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="price">$214.22</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6 mb-4">
+                            <div class="items position-relative">
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart "></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/trendign/Down-Fill-Windrunner-1.jpg.webp"
+                                            class="img-fluid" alt="womens hoodie"></a>
+                                </div>
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">MEN</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">DOWN FILL WINDRUNNER</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="price">$70.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4 col-lg-6 col-6">
+                            <div class="items position-relative">
+                                <div class="hot"><span>HOT</span></div>
+                                <div class="brand-image position-relative">
+                                    <div class="product-buttons text-center w-100 m-auto">
+                                        <a href="#" class="prod-btn"><i class="fa-solid fa-bag-shopping"></i></a>
+                                        <a href="#" class="prod-btn"><i class="fa-regular fa-heart"></i></a>
+                                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </div>
+                                    <a href="#"> <img src="../img/trendign/Graphic-Training-Top-1.webp"
+                                            class="img-fluid" alt="womens hoodie"></a>
+                                </div>
+                                <div class="about-item d-flex  justify-content-between">
+                                    <div class="rate-item">
+                                        <a href="#" class="text-decoration-none">KIDS</a>
+                                    </div>
+                                    <div class="star-rating">
+                                        <i class="fa-solid fa-star "></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                            class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <a href="#" class="text-decoration-none">GRAPHIC TRAINING TOP</a>
+                                </div>
+                                <div class="prices">
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end shop categories section-->
+    <!--start footer section-->
+    <footer class="footer py-5 overflow-hidden">
+        <div class="footer-sections w-75 m-auto">
+            <div class="row">
+                <div class="footer-item col-md-3">
+                    <div class="footer-title">
+                        <h3 class="text-uppercase "> get help </h3>
+                    </div>
+                    <ul class="p-0 m-0">
+                        <li><a href="#" class="text-decoration-none">Contact & FAQ</a></li>
+                        <li><a href="#" class="text-decoration-none">Track Your Order</a></li>
+                        <li><a href="#" class="text-decoration-none">Shipping & delivery</a></li>
+                        <li><a href="#" class="text-decoration-none">Visit Brisbane Studio</a></li>
+                        <li><a href="#" class="text-decoration-none">Interest Free Finance</a></li>
+                        <li><a href="#" class="text-decoration-none">Cipmoney</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item w-25">
+                    <div class="footer-title">
+                        <h3 class="text-uppercase "> services </h3>
+                    </div>
+                    <ul class="p-0 m-0">
+                        <li><a href="#" class="text-decoration-none">Assembly Guides</a></li>
+                        <li><a href="#" class="text-decoration-none">Furniture Packages & Fitouts</a></li>
+                        <li><a href="#" class="text-decoration-none">Trade Programme</a></li>
+                        <li><a href="#" class="text-decoration-none">Sale</a></li>
+                        <li><a href="#" class="text-decoration-none">New Designs</a></li>
+                        <li><a href="#" class="text-decoration-none">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item col-md-3 ">
+                    <div class="footer-title">
+                        <h3 class="text-uppercase "> connect </h3>
+                    </div>
+                    <ul class="p-0 m-0">
+                        <li><a href="#" class="text-decoration-none">Twiter</a></li>
+                        <li><a href="#" class="text-decoration-none">Facebook</a></li>
+                        <li><a href="#" class="text-decoration-none">Instagram</a></li>
+                        <li><a href="#" class="text-decoration-none">Pinterest</a></li>
+                        <li><a href="#" class="text-decoration-none">Jobs</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item subscribe col-md-3 ">
+                    <div class="footer-title">
+                        <h3 class="text-uppercase ">SUBSCRIBE FOR NEWSLETTER</h3>
+                    </div>
+                    <p class="m-0 p-0">Sign up for our newsletter and stay up-to-date with the latest collection, the
+                        latest
+                        trends and the
+                        best deals!</p>
+                    <div class="subscribe-section">
+                        <div class="mt-4 d-flex position-relative">
+                            <input type="email" class="form-control border-0 rounded-0 p-0"
+                                id="exampleFormControlInput1" placeholder="Your email address...">
+                            <div class="send">
+                                <a href="#"> <i class="fa-solid fa-paper-plane"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="social-footer">
+        <div class="social-content w-75  m-auto">
+            <div class="row">
+                <div class="col-md-3 azeno-link d-flex align-items-center mt-2">
+                    <span>© 2020 AZENOSPRORTSTORE.COM</span>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <a href="#" class="text-decoration-none ">Privacy</a>
+                    <a href="#" class="text-decoration-none ">Terms</a>
+                    <a href="#" class="text-decoration-none border-0">*Promo T&Cs Apply(view here)</a>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="social-media-icons d-flex">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <a href="#"> <i class="fa-brands fa-twitter text-white"></i></a>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-content-center align-items-center">
+                            <a href="#"> <i class="fa-brands fa-instagram text-white"></i></a>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <a href="#"><i class="fa-brands fa-youtube text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end footer section-->
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.min.js"></script>
+
+</body>
+
+</html>
